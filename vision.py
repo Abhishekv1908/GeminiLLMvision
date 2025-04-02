@@ -2,8 +2,8 @@ import streamlit as st
 import google.generativeai as genai
 from PIL import Image
 
-# Directly set the API key (replace with your actual key)
-API_KEY = "Google_API_Key"
+# Load API key from Streamlit secrets
+API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # Configure the API key
 genai.configure(api_key=API_KEY)
