@@ -4,11 +4,11 @@ import os
 import google.generativeai as genai
 from PIL import Image
 
-# Load environment variables
-load_dotenv()
+# Directly set the API key (replace with your actual key)
+API_KEY = "Google_API_Key"
 
-# Configure API key
-genai.configure(api_key=os.getenv("Google_API_Key"))
+# Configure the API key
+genai.configure(api_key=API_KEY)
 
 # Function to load Gemini Pro model and get responses
 model = genai.GenerativeModel("gemini-1.5-pro")
