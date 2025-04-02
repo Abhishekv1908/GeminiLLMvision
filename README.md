@@ -1,6 +1,3 @@
-Here's a README for your GitHub project that explains how to set up and run the Streamlit app without using an `.env` file. I'll assume the user will manually input the API key.
-
----
 
 # Gemini Image Demo by Abhishek
 
@@ -97,19 +94,10 @@ Contributions are welcome! If you'd like to improve the project:
 4. Commit and push your changes
 5. Open a pull request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🙋‍♂️ Author
 
 **Abhishek**  
-[Your GitHub Profile](https://github.com/yourusername)
 
----
-
-Let me know if you'd like any adjustments!
