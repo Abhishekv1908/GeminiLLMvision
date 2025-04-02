@@ -4,11 +4,11 @@ from PIL import Image
 import subprocess
 import sys
 
-try:
-    import google.generativeai
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "google-generativeai"])
-    import google.generativeai
+# Ensure the package is installed
+subprocess.check_call([sys.executable, "-m", "pip", "install", "google-generativeai"])
+
+import google.generativeai as genai
+
 
 # Load API key from Streamlit secrets
 API_KEY = st.secrets["GOOGLE_API_KEY"]
